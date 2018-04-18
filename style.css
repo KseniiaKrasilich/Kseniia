@@ -1,0 +1,92 @@
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h1{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.7em;
+
+}
+h2{
+  font-family: 'Overpass Mono', monospace;
+}
+body{
+     text-align: center;
+     width: 70%;
+     margin: 0 auto;
+    font-family: 'Overpass Mono', monospace;
+    font-size: 0.7em;
+   }
+   .button {
+       background-color: #4CAF50;
+       border: none;
+       color: white;
+       padding: 15px 32px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+       margin: 4px 2px;
+       cursor: pointer;
+   }
+   .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    color: white;
+    text-align: right;
+ }
+ .header {
+  padding: 10px 16px;
+
+}
+a{
+  text-decoration: none;
+}
+a:visited {
+    color: black;
+}
